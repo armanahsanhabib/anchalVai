@@ -1,0 +1,111 @@
+body {
+    display: flex; 
+    max-width: 1200px; 
+    margin: 0 auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 250px; 
+    border: 1px solid #ccc; 
+    padding: 10px;
+    border-radius: 10px; 
+    margin: 10px;
+    box-shadow: 2px 2px 5px #ccc; 
+}
+
+img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+}
+
+.container {
+    position: relative; 
+}
+
+.text {
+    color: aliceblue; 
+    font-size: 30px; 
+    position: absolute; 
+    transform: translate(-50%,-50%); 
+    left: 50%;
+    top: 50%; 
+}
+
+.bottom_text {
+    text-align: center; 
+}
+
+/*================
+       Card
+==================*/
+
+.card .overlay {
+    position: absolute; 
+    background-color: rgba(0, 0, 0, 0.56); 
+    transition: 0.5s ease; 
+    white-space: nowrap; 
+    overflow: hidden; 
+}
+
+/*================
+      Card 1
+==================*/
+
+.card1 .overlay {
+    top: 0; 
+    width: 100%; 
+    height: 0; 
+}
+
+.card1 .container:hover .overlay {
+    height: 100%; 
+}
+
+/*================
+      Card 2
+==================*/
+
+.card2 .overlay {
+    bottom: 0; 
+    width: 100%; 
+    height: 0; 
+}
+
+.card2 .container:hover .overlay {
+    height: 100%; 
+}
+
+/*================
+      Card 3
+==================*/
+
+.card3 .overlay {
+    left: 0; 
+    top: 0;
+    width: 0; 
+    height: 100%; 
+}
+
+.card3 .container:hover .overlay {
+    width: 100%; 
+}
+
+/*================
+      Card 4
+==================*/
+
+.card4 .overlay {
+    top: 0;
+    right: 0; 
+    width: 0; 
+    height: 100%; 
+}
+
+.card4 .container:hover .overlay {
+    width: 100%; 
+}
+
+
