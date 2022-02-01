@@ -54,10 +54,6 @@ img {
       Card 1
 ==================*/
 
-.card1 .text {
-    font-size: 16px; 
-}
-
 .card1 .overlay {
     top: 0; 
     width: 100%; 
