@@ -1,1 +1,1 @@
-Coding is something which I can't do when my mind is distracted. 
+Live preview: https://armanahsanhabib.github.io/hoverSlideEffect/
